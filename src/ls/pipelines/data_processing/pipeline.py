@@ -37,7 +37,7 @@ def create_pipeline(**kwargs) -> Pipeline:
     )
     my_pipeline = pipeline(
         [node_a, node_b, final_node],
-        custom_order =[node_b, node_a]
-        # custom_order =[node_a,node_b ]
+        # custom_order =[node_b, node_a]
+
     )
     return my_pipeline
